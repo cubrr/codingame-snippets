@@ -96,7 +96,7 @@ Game.prototype.GameLoop = function () {
   var currentTime = Date.now();
   var elapsed = currentTime - this.PreviousTime;
   this.Previoustime = currentTime;
-  
+
   this.Update(elapsed);
   this.Render();
 };
@@ -125,7 +125,7 @@ Game.prototype.Update = function (elapsed) {
     });
     this.Renderables.push(rDown);
   } // end MouseDown
-  
+
   for (var i = 0; i < this.Updateables.length; i++) {
     this.Updateables[i].Update(this, elapsed);
   }
@@ -147,7 +147,6 @@ Game.prototype.Render = function () {
     }
   });
 };
-
 
 var Vector = function (x, y) {
   this.X = x;
