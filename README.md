@@ -1,5 +1,5 @@
 # codingame-snippets
-Assorted snippets and notes related to [CodinGame](https://www.codingame.com/) by cubrr.
+Assorted snippets and notes related to [CodinGame](https://www.codingame.com/) by cubrr. CodinGame is a load of fun; go play it.
 
 | File              | Description      |
 |:------------------|:-----------------|
